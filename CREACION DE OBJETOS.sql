@@ -44,27 +44,11 @@ create sequence id_respuesta_respuesta_seq start 1 increment 1;
 alter table respuesta alter column id_respuesta set default nextval('id_respuesta_respuesta_seq');
 
 
-create table persona_pregunta(
-id_persona numeric(4) references persona(id_persona) on update cascade on delete cascade, 
-id_pregunta numeric (4) references pregunta(id_pregunta) on update cascade, 
-constraint pk_persona_pregunta primary key(id_persona, id_pregunta));
-
-create table persona_respuesta (
-id_persona numeric(4) references persona(id_persona) on update cascade on delete cascade, 
-id_respuesta numeric (4) references respuesta(id_respuesta) on update cascade, 
-constraint pk_persona_respuesta primary key(id_persona, id_respuesta));
-
-
 create table persona_encuesta(
 id_persona numeric(4) references persona(id_persona) on update cascade on delete cascade, 
 id_encuesta numeric (4) references encuesta(id_encuesta) on update cascade, 
 constraint pk_persona_encuesta primary key(id_persona, id_encuesta));
 
-
-create table pregunta_respuesta(
-id_pregunta numeric(4) references pregunta(id_pregunta) on update cascade on delete cascade, 
-id_respuesta numeric (4) references respuesta(id_respuesta) on update cascade, 
-constraint pk_pregunta_respuesta primary key(id_pregunta, id_respuesta));
 
 create table persona_pregunta_respuesta(
 id_persona numeric(4) references persona(id_persona) ON UPDATE CASCADE ON DELETE CASCADE, 
