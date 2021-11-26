@@ -12,7 +12,7 @@ Repositorio del proyecto final BD.
 ### Segunda Entrega:
 - Presentacion 2.
 - Diagrama ER: 
-[alt text](https://github.com/iancarbajal/Proyecto-BD-OTO-O2021/blob/main/Diagrama ER.PNG?raw=true)
+![alt text](https://github.com/iancarbajal/Proyecto-BD-OTO-O2021/blob/main/Diagrama%20ER.PNG?raw=true)
 - Scripts:
 -  de Creacion
 -  Insertar Datos
