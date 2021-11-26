@@ -11,7 +11,7 @@ Repositorio del proyecto final BD.
 - Borrador de las preguntas.
 ### Segunda Entrega:
 - Presentacion 2.
-- Diagrama ER: 
+- Diagrama ER:      
 ![alt text](https://github.com/iancarbajal/Proyecto-BD-OTO-O2021/blob/main/Diagrama%20ER.PNG?raw=true)
 - Scripts:
 -  de Creacion
