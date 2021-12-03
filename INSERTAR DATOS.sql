@@ -56,7 +56,6 @@ insert into respuesta
 ('Redes sociales',5,1),
 ('Si',2,1),
 ('Menos de 1 hora ',3,1),
-('Sí ',3,1),
 ('Noticieros/periódicos  ',5,1),
 ('Colaboración de proyectos ',3,1),
 ('Nada',2,1),
@@ -65,7 +64,8 @@ insert into respuesta
 ('Si',3,1),
 ('Facebook',3,1),
 ('1 a 3 ',3,1),
-('Extorsión ',3,1),
+('Extor
+ ón ',3,1),
 ('Siempre ',4,1),
 ('Sí',4,1),
 ('Menos de 1 mes ',4,1),
