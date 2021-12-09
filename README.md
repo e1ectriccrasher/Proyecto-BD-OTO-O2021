@@ -18,4 +18,6 @@ Repositorio del proyecto final BD.
 -  Insertar Datos
 -  Borrar Datos 
 -  Eliminacion de objetos
-
+### Entrega Final:
+- Presentacion final.
+- Script de vistas. (VIEWS.sql)
