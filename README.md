@@ -9,5 +9,3 @@ Repositorio del proyecto final BD.
 - Investigacion.
 - Preguntas finales.
 - Borrador de las preguntas.
-
-hello 
